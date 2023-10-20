@@ -55,3 +55,16 @@ WORKDIR /usr/src/app/blog
 RUN bundle install
 ```
 
+5. Add theme in `/blog`:
+
+Gemfile:
+```
+gem "no-style-please"
+
+```
+_config.yml:
+```
+theme: no-style-please
+```
+
+Make sure to rebuild Docker container to install gem.
