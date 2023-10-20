@@ -77,3 +77,4 @@ directory and it works.
 
 * can comment `#` initial config
 * post slugs are `CATEGORIES/YEAR/MONTH/DAY/title.html`
+* can have a raw `file.html`
