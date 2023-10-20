@@ -29,12 +29,11 @@ url: "https://alanverga.com" # the base hostname & protocol for your site, e.g. 
 #github_username:  jekyll
 
 favicon: "logo.png" # name+extension of favicon (which must be put on the root folder)
-
+remote_theme: riggraz/no-style-please
 sass:
   style: compressed
 
 # Build settings
-theme: no-style-please
 plugins:
   - jekyll-feed
 
