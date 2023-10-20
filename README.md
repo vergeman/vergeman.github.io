@@ -68,3 +68,12 @@ theme: no-style-please
 ```
 
 Make sure to rebuild Docker container to install gem.
+
+## Jekyll Notes
+
+The current theme `no-style-please` hasn't been updated in years and is doesn't
+install correctly with latest jekyll. Just shove the theme contents into the
+directory and it works.
+
+* can comment `#` initial config
+* post slugs are `CATEGORIES/YEAR/MONTH/DAY/title.html`
