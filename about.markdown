@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: page
 title: About
 permalink: /about/
 ---
@@ -11,6 +11,13 @@ I like to build software.
 ---
 
 Versions of myself via [SDXL](https://stability.ai/stable-diffusion):
+
+<style>
+ img {
+     border-radius: 16px;
+     margin-bottom: 2rem;
+ }
+</style>
 
 ![Watercolor suit](/assets/images/about/watercolorsuit.png "Watercolor Suit"){: loading="lazy"}
 ![Cubist](/assets/images/about/cubist.png "Cubist"){: loading="lazy"}
