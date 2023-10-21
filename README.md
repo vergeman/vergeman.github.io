@@ -5,8 +5,8 @@ Just my little corner of the web.
 
 # Jekyll Dockerfile Setup Notes
 
-1. Jekyll needs a "root" directory install
-2. `jekyll new <blog name>` creates the active blog project subdir
+
+For github pages, required to create blog in current directory (`jekyll new .`)
 
 
 1. Setup initial Dockerfile
@@ -38,42 +38,43 @@ bundle init
 
 ```
 
-3. Install gems - yes install jekyll, then bundle install again in newly created project
+3. Install gems
 
 ```
 bundle add jekyll
 bundle install
-jekyll new blog
-cd blog
-bundle install
+jekyll new .
 ```
 
-4. Update Dockerfile to install project subdir 'blog' and set workdir to serve from created blog
-
-```
-WORKDIR /usr/src/app/blog
-RUN bundle install
-```
-
-5. Add theme in `/blog`:
+4. Add theme:
 
 Gemfile:
 ```
 gem "no-style-please"
 
 ```
-_config.yml:
+_config.yml: important
 ```
-theme: no-style-please
+remote_theme: riggraz/no-style-please
 ```
 
-Make sure to rebuild Docker container to install gem.
+Make sure to rebuild Docker container to reinstall gem.
 
-## Jekyll Notes
+
+## Deploy Theme Notes
+
+Github pages requires serving from root directory; so install `jekyll new` must
+be done in root dir.
 
 The current theme `no-style-please` hasn't been updated in years and is doesn't
 install correctly with latest jekyll. Just shove the theme contents into the
 directory and it works.
+
+* `baseurl: ""`; needs to be current dir for gh pages.
+* move any theme `.scss` in `_sass` dir to `/css/main.css` - breaks on github
+  compile.
+
+## Jekyll Ops
 
 * can comment `#` initial config
 * post slugs are `CATEGORIES/YEAR/MONTH/DAY/title.html`
