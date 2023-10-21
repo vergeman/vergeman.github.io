@@ -1,18 +1,27 @@
 ---
-layout: page
+layout: about
 title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Currently in Austin, TX.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I like to build software.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+---
 
+Versions of myself via [SDXL](https://stability.ai/stable-diffusion):
 
-[jekyll-organization]: https://github.com/jekyll
+![Watercolor suit](/assets/images/about/watercolorsuit.png "Watercolor Suit")
+![Cubist](/assets/images/about/cubist.png "Cubist")
+![Watercolor nyc](/assets/images/about/watercolornyc.png "Watercolor NYC")
+![Lego](/assets/images/about/lego.png "Lego")
+![De Kooning](/assets/images/about/deKooning1.png "De Kooning")
+![Anime Kaiju](/assets/images/about/animekaiju.png "Anime Kaiju")
+![Kandinsky](/assets/images/about/Kandinsky.png "Kandinsky")
+![Clay Face](/assets/images/about/clay2.png "Clay Face")
+![Sketch](/assets/images/about/anime.jpg "Sketch")
+![Line Art](/assets/images/about/lineart.png "Line Art")
+![Scream](/assets/images/about/scream.jpg "Scream")
+![Lichtenstein](/assets/images/about/Lichtenstein2.png "Lichtenstein")
+
