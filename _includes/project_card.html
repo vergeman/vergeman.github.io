@@ -5,12 +5,6 @@
     <div class="text">
 
         <h3>
-            {%- if include.github_url -%}
-            <a href="{{include.github_url}}" target="_blank" class="github-icon">
-                <img src ="/assets/github-1.svg" loading="lazy" />
-            </a>
-            {%- endif -%}
-
             {%- if include.url -%}
             <a href="{{include.url}}" target="_blank">
                 {{include.name}}
@@ -20,9 +14,17 @@
             {%- endif -%}
         </h3>
 
-        {%- if include.tech -%}
-        <p class="project-tech">{{ include.tech }}</p>
-        {%- endif -%}
+        <div class="project-repo-tech">
+            {%- if include.github_url -%}
+            <a href="{{include.github_url}}" target="_blank" class="github-icon">
+                <img src ="/assets/github-1.svg" loading="lazy" />
+            </a>
+            {%- endif -%}
+
+            {%- if include.tech -%}
+            <span class="project-tech">{{ include.tech }}</span>
+            {%- endif -%}
+        </div>
 
         {%- if include.description -%}
         <p class="project-description">{{ include.description }}</p>

@@ -6,35 +6,40 @@ permalink: /projects/
 
 <style>
     .project-card {
-        margin-bottom: 2rem;
+      margin-bottom: 2rem;
+      padding: 2rem;
+      border: 1px solid #000;
+      border-radius: 6px;
     }
 
     .project-card .img {
         max-width: 50%;
         margin-bottom: 1rem;
     }
-    .project-card .img img {
-        border-radius: 4px;
-        border: 1px solid #000;
-    }
 
+    .project-card .img img {
+        //border-radius: 4px;
+        //border: 1px solid #000;
+    }
 
     .project-card .text h3 {
         display: flex;
         margin-top: 2rem;
     }
+    .project-card .project-repo-tech {
+        display: flex;
+    }
+
     .project-card a.github-icon { margin-right: .8rem;}
 
     .project-tech {
         font-style: italic;
-        font-size: .85rem;
+        font-size: .8rem;
+        display:flex;
+        align-items: self-end;
+        margin-top: 0.5rem;
     }
 
-    hr.section::before {
-        content: "";
-    }
-
-    hr.section::after { content: "---"; }
 </style>
 
 
@@ -44,10 +49,10 @@ permalink: /projects/
     url="https://www.thepittrader.com/"
     github_url="https://www.github.com/vergeman/pit-trader"
     tech="React, Mediapipe, PyTorch, Jupyter, ONNX"
-    description="Gesture recognition video game simulating open outcry trading."
+    description="Gesture recognition open-outcry trading video game."
 %}
 
-<hr class="section" />
+
 
 {% include project_card.html
     name="Stereopaw"
@@ -57,7 +62,7 @@ permalink: /projects/
     description="Music Bookmarking Service and Chrome extension to save time-stamps from Youtube, Soundcloud, Mixcloud, and Spotify."
 %}
 
-<hr class="section" />
+
 
 {% include project_card.html
     name="Sir Tweets A Lot"
@@ -67,7 +72,7 @@ permalink: /projects/
     description="Auto-schedule Tweets from an Excel sheet."
 %}
 
-<hr class="section" />
+
 
 {% include project_card.html
     name="Sulfonic Avenger"
@@ -77,7 +82,7 @@ permalink: /projects/
     description="Promotional Low-Fi Atari Centipede-clone; java applet video game."
 %}
 
-<hr class="section" />
+
 
 {% include project_card.html
     name="The Volatility Skew"
@@ -87,17 +92,17 @@ permalink: /projects/
     description="Visualize equity option volatility skews."
 %}
 
-<hr class="section" />
+
 
 {% include project_card.html
     name="7 of 9"
     image="/assets/images/projects/7of9.jpg"
     github_url="https://www.github.com/vergeman/7of9"
     tech="Ruby on Rails"
-    description="Animal fostering website demo. Startup Weekend, Zagreb, team 7 of 9."
+    description="Animal fostering website demo. Startup Weekend, Zagreb."
 %}
 
-<hr class="section" />
+
 
 {% include project_card.html
     name="San Diego Map"
@@ -107,7 +112,7 @@ permalink: /projects/
     description="Javascript map of San Diego neighborhood boundaries."
 %}
 
-<hr class="section" />
+
 
 {% include project_card.html
     name="Get Together"
@@ -117,7 +122,7 @@ permalink: /projects/
     description="Classic suggest and vote on bars for a night out."
 %}
 
-<hr class="section" />
+
 
 {% include project_card.html
     name="The Cloud Exchange"
@@ -127,17 +132,17 @@ permalink: /projects/
     description="An EC2 Instance futures trading platform."
 %}
 
-<hr class="section" />
+
 
 {% include project_card.html
     name="Degustibus"
     image="/assets/images/projects/degustibus.jpg"
     github_url="https://www.github.com/vergeman/degustibus"
     tech="Perl, PHP, C++, Apache Thrift"
-    description="Web-based, K-means clustering, novel lunch recommendation system."
+    description="K-means clustering novel lunch recommendation system."
 %}
 
-<hr class="section" />
+
 
 {% include project_card.html
     name="Concession Session"
