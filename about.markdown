@@ -1,16 +1,24 @@
 ---
-layout: about
+layout: page
 title: About
 permalink: /about/
 ---
 
 Currently in Austin, TX.
 
-I like to build software.
+I like to build stuff.
 
 ---
 
 Versions of myself via [SDXL](https://stability.ai/stable-diffusion):
+
+<style>
+ img {
+     border: 1px solid #000;
+     border-radius: 16px;
+     margin-bottom: 2rem;
+ }
+</style>
 
 ![Watercolor suit](/assets/images/about/watercolorsuit.png "Watercolor Suit"){: loading="lazy"}
 ![Cubist](/assets/images/about/cubist.png "Cubist"){: loading="lazy"}
