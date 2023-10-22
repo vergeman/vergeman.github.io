@@ -6,7 +6,7 @@ permalink: /about/
 
 Currently in Austin, TX.
 
-I like to build software.
+I like to build stuff.
 
 ---
 
@@ -14,6 +14,7 @@ Versions of myself via [SDXL](https://stability.ai/stable-diffusion):
 
 <style>
  img {
+     border: 1px solid #000;
      border-radius: 16px;
      margin-bottom: 2rem;
  }
