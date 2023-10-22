@@ -5,7 +5,6 @@
     <div class="text">
 
         <h3>
-
             {%- if include.github_url -%}
             <a href="{{include.github_url}}" target="_blank" class="github-icon">
                 <img src ="/assets/github-1.svg" loading="lazy" />
@@ -21,6 +20,13 @@
             {%- endif -%}
         </h3>
 
-        <p>{{ include.description }}</p>
+        {%- if include.tech -%}
+        <p class="project-tech">{{ include.tech }}</p>
+        {%- endif -%}
+
+        {%- if include.description -%}
+        <p class="project-description">{{ include.description }}</p>
+        {%- endif -%}
+
     </div>
 </div>

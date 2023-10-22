@@ -25,6 +25,11 @@ permalink: /projects/
     }
     .project-card a.github-icon { margin-right: .8rem;}
 
+    .project-tech {
+        font-style: italic;
+        font-size: .85rem;
+    }
+
     hr.section::before {
         content: "";
     }
@@ -35,28 +40,109 @@ permalink: /projects/
 
 {% include project_card.html
     name="Pit Trader"
-    image="/assets/images/projects/test.jpg"
+    image="/assets/images/projects/pit-trader.jpg"
     url="https://www.thepittrader.com/"
     github_url="https://www.github.com/vergeman/pit-trader"
-    description="description dkjalsjdlkasjdlakjsd lkaj skldj flskdjf lksjd lskjd lkjs ldkfjsl dkjf sa;asdlk ;a sldka f;sdlkf a;sdlkf a;sdklf a;lsdkf ;k asdfasd ajmkdslfjalsdjf alj lksjl aksjdflksdjf l "
-
+    tech="React, Mediapipe, PyTorch, Jupyter, ONNX"
+    description="Gesture recognition video game simulating open outcry trading."
 %}
 
 <hr class="section" />
 
 {% include project_card.html
-    name="Pit Trader"
-    image="/assets/images/projects/test.jpg"
-    url="https://thepitrader.com"
-    description="description"
+    name="Stereopaw"
+    image="/assets/images/projects/stereopaw.jpg"
+    github_url="https://www.github.com/vergeman/stereopaw"
+    tech="Ruby on Rails, JS Chrome Extension"
+    description="Music Bookmarking Service and Chrome extension to save time-stamps from Youtube, Soundcloud, Mixcloud, and Spotify."
 %}
 
+<hr class="section" />
 
-TODO:
-Pit Trader
-Stereo paw
-Sir Tweets A lot
-Sulfonic Avenger
-OurCity Map
-The Volatility Skew
-7of9
+{% include project_card.html
+    name="Sir Tweets A Lot"
+    image="/assets/images/projects/sirtweetsalot.jpg"
+    github_url="https://www.github.com/vergeman/sirtweetsalot"
+    tech="Ruby on Rails"
+    description="Auto-schedule Tweets from an Excel sheet."
+%}
+
+<hr class="section" />
+
+{% include project_card.html
+    name="Sulfonic Avenger"
+    image="/assets/images/projects/sulfonicavenger.jpg"
+    github_url="https://www.github.com/vergeman/SulfonicAvenger"
+    tech="Java, Lightweight Java Gaming Library"
+    description="Promotional Low-Fi Atari Centipede-clone; java applet video game."
+%}
+
+<hr class="section" />
+
+{% include project_card.html
+    name="The Volatility Skew"
+    image="/assets/images/projects/volskew.jpg"
+    github_url="https://www.github.com/vergeman/The-Volatility-Skew"
+    tech="Java, JSP, Google App Engine"
+    description="Visualize equity option volatility skews."
+%}
+
+<hr class="section" />
+
+{% include project_card.html
+    name="7 of 9"
+    image="/assets/images/projects/7of9.jpg"
+    github_url="https://www.github.com/vergeman/7of9"
+    tech="Ruby on Rails"
+    description="Animal fostering website demo. Startup Weekend, Zagreb, team 7 of 9."
+%}
+
+<hr class="section" />
+
+{% include project_card.html
+    name="San Diego Map"
+    image="/assets/images/projects/san-diego.jpg"
+    github_url="https://www.github.com/vergeman/ourcity"
+    tech="Quantum GIS, Leaftlet.js, Sinatra"
+    description="Javascript map of San Diego neighborhood boundaries."
+%}
+
+<hr class="section" />
+
+{% include project_card.html
+    name="Get Together"
+    image="/assets/images/projects/get-together.jpg"
+    github_url="https://www.github.com/vergeman/groupie"
+    tech="Ruby on Rails"
+    description="Classic suggest and vote on bars for a night out."
+%}
+
+<hr class="section" />
+
+{% include project_card.html
+    name="The Cloud Exchange"
+    image="/assets/images/projects/cloudex.jpg"
+    github_url="https://www.github.com/vergeman/cloudex"
+    tech="Google App Engine, Amazon EC2"
+    description="An EC2 Instance futures trading platform."
+%}
+
+<hr class="section" />
+
+{% include project_card.html
+    name="Degustibus"
+    image="/assets/images/projects/degustibus.jpg"
+    github_url="https://www.github.com/vergeman/degustibus"
+    tech="Perl, PHP, C++, Apache Thrift"
+    description="Web-based, K-means clustering, novel lunch recommendation system."
+%}
+
+<hr class="section" />
+
+{% include project_card.html
+    name="Concession Session"
+    image="/assets/images/projects/concession-session.jpg"
+    github_url="https://www.github.com/vergeman/Concession-Session"
+    tech="XNA, C#"
+    description="Mario Kart meets Diner Dash video game."
+%}
