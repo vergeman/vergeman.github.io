@@ -4,13 +4,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <title>
-    {%- if page.title -%}
+      {%- if page.title -%}
       {{ page.title }}
-    {%- else -%}
+      {%- else -%}
       {{ site.title }}
-    {%- endif -%}
+      {%- endif -%}
   </title>
 
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex, notranslate, noodp" />
   {%-seo title=false-%}
   {%-feed_meta-%}
 
