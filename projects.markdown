@@ -42,7 +42,9 @@ permalink: /projects/
 
 </style>
 
+A collection of past projects.
 
+<hr />
 {% include project_card.html
     name="Pit Trader"
     image="/assets/images/projects/pit-trader.jpg"
@@ -119,7 +121,7 @@ permalink: /projects/
     image="/assets/images/projects/get-together.jpg"
     github_url="https://www.github.com/vergeman/groupie"
     tech="Ruby on Rails"
-    description="Classic suggest and vote on bars for a night out."
+    description="Classic suggest-and-vote on bars for a night out."
 %}
 
 
