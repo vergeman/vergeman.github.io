@@ -15,7 +15,7 @@ permalink: /
  h1 {
 
      font-family: 'monospace';
-     //font-family: 'Saniretro';
+     font-family: 'Saniretro';
      font-size: 6rem;
      color:white;
      filter: drop-shadow(1px 0px 2px rgba(0, 0, 0, .8));
@@ -23,17 +23,18 @@ permalink: /
  }
  #main {
      display: flex;
-     //justify-content: center;
+     justify-content: center;
  }
 
  nav ul {
      display: flex;
      justify-content: space-between;
+     padding:0;
  }
  nav ul li {
      display: inline;
      font-family: 'monospace';
-     //font-family: 'Saniretro';
+     font-family: 'Saniretro';
      color: white;
      font-size: 2rem;
      filter: drop-shadow(1px 0px 2px rgba(0, 0, 0, .8));
@@ -44,7 +45,9 @@ permalink: /
  }
  nav a:visited {
      color: white;
-
+ }
+ nav a:hover {
+     color: lightblue;
  }
 
 </style>
