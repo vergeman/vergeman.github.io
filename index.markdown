@@ -25,12 +25,20 @@ permalink: /
      display: flex;
      justify-content: center;
  }
+ #hero {
+     display: flex;
+     align-items: center;
+ }
 
  nav ul {
      display: flex;
      justify-content: space-between;
-     padding:0;
+     padding: 0;
  }
+ @media (min-width:767px) {
+     nav ul { padding-left: 40px; }
+ }
+
  nav ul li {
      display: inline;
      font-family: 'monospace';
@@ -52,28 +60,33 @@ permalink: /
 
 </style>
 
-{%- include shore_large.html -%}
 
-{%- include surfboard.html -%}
-
+{%- include shore.html -%}
 
 
 <section id="main">
+
     <div>
-        <h1>Alan <br />&nbsp;&nbsp;
+        <div id="hero">
+            {%- include surfboard.html -%}
+
+        <h1>Alan <br />&nbsp;
             Verga</h1>
 
-        <nav>
-            <ul>
-                <li>
-                    <a href="{{ "/about" | relative_url }}">About</a>
-                </li>
-                <li>
-                    <a href="{{ "/projects" | relative_url }}">Projects</a>
-                </li>
-
-            </ul>
-        </nav>
     </div>
+    <nav>
+        <ul>
+            <li>
+                <a href="{{ "/about" | relative_url }}">About</a>
+            </li>
+            <li>
+                <a href="{{ "/projects" | relative_url }}">Projects</a>
+            </li>
+
+        </ul>
+    </nav>
+    </div>
+
 </section>
+
 
