@@ -12,16 +12,6 @@ permalink: /projects/
       border-radius: 6px;
     }
 
-    .project-card .img {
-        max-width: 50%;
-        margin-bottom: 1rem;
-    }
-
-    .project-card .img img {
-        //border-radius: 4px;
-        //border: 1px solid #000;
-    }
-
     .project-card .text h3 {
         display: flex;
         margin-top: 2rem;
@@ -39,10 +29,11 @@ permalink: /projects/
         align-items: self-end;
         margin-top: 0.5rem;
     }
-
 </style>
 
 A collection of past projects.
+
+[Github](https://github.com/vergeman)
 
 <hr />
 {% include project_card.html

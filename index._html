@@ -1,5 +1,10 @@
 <!doctype html>
-<style>
+<style type="style/css">
+ @font-face {
+     font-family: 'Saniretro';
+     src: url('Saniretro.ttf'); /* IE9 Compat Modes */
+ }
+
  body {
      display: grid;
      justify-content: center;
