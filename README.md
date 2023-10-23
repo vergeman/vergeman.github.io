@@ -2,6 +2,16 @@
 
 Just my little corner of the web.
 
+Some files to keep in mind:
+
+* robots.txt
+* feed.xml
+
+TODO:
+
+[] setup blog
+
+---
 
 # Jekyll Dockerfile Setup Notes
 
