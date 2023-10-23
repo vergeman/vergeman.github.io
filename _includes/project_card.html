@@ -22,9 +22,13 @@
             {%- endif -%}
 
             {%- if include.tech -%}
-            <span class="project-tech">{{ include.tech }}</span>
+              <div class="project-tech">{{ include.tech }}</div>
             {%- endif -%}
         </div>
+
+        {%- if include.tech -%}
+          <div class="project-tech-mobile">{{ include.tech }}</div>
+        {%- endif -%}
 
         {%- if include.description -%}
         <p class="project-description">{{ include.description }}</p>

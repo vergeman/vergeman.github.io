@@ -22,12 +22,23 @@ permalink: /projects/
 
     .project-card a.github-icon { margin-right: .8rem;}
 
-    .project-tech {
+    .project-tech, .project-tech-mobile {
         font-style: italic;
         font-size: .8rem;
         display:flex;
         align-items: self-end;
         margin-top: 0.5rem;
+    }
+    @media (min-width:567px) {
+        .project-tech-mobile {
+            display:none;
+        }
+    }
+    @media (max-width:567px) {
+        .project-tech-mobile {margin-top:1rem;}
+        .project-tech {
+            display:none;
+        }
     }
 </style>
 
