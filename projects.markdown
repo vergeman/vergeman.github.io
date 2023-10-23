@@ -29,10 +29,11 @@ permalink: /projects/
         align-items: self-end;
         margin-top: 0.5rem;
     }
-
 </style>
 
 A collection of past projects.
+
+[Github](https://github.com/vergeman)
 
 <hr />
 {% include project_card.html
