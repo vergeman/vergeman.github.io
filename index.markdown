@@ -50,6 +50,7 @@ permalink: /
 
  nav a {
      text-decoration: none;
+     color: white
  }
  nav a:visited {
      color: white;
