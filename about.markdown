@@ -37,9 +37,11 @@ Versions of myself via [SDXL](https://stability.ai/stable-diffusion):
 ![Lego](/assets/images/about/lego.png "Lego"){: loading="lazy"}
 ![De Kooning](/assets/images/about/deKooning1.png "De Kooning"){: loading="lazy"}
 ![Anime Kaiju](/assets/images/about/animekaiju.png "Anime Kaiju"){: loading="lazy"}
+![Einstein](/assets/images/about/einstein.png "Einstein"){: loading="lazy"}
 ![Kandinsky](/assets/images/about/Kandinsky.png "Kandinsky"){: loading="lazy"}
 ![Clay Face](/assets/images/about/clay2.png "Clay Face"){: loading="lazy"}
 ![Sketch](/assets/images/about/anime.jpg "Sketch"){: loading="lazy"}
 ![Scream](/assets/images/about/scream.jpg "Scream"){: loading="lazy"}
+![Native American](/assets/images/about/native.png "Native"){: loading="lazy"}
 ![Lichtenstein](/assets/images/about/Lichtenstein2.png "Lichtenstein"){: loading="lazy"}
 
