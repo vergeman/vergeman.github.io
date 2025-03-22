@@ -7,9 +7,11 @@ Some files to keep in mind:
 * robots.txt
 * feed.xml
 
-TODO:
+# Runtime
 
-[] setup blog
+1. `docker run -it -p 4000:4000 -v /home/vergeman/dev/vergeman.github.io:/usr/src/app vergeman/jekyll`
+2. Do stuff
+3. Push to deploy
 
 ---
 
@@ -41,7 +43,7 @@ Do an initial build: `docker build -t vergeman/jekyll .` to bootstrap from.
 2. Boostrap initial Gemfile
 
 ```
-docker run -it -v /home/vergeman/dev/app:/usr/src/app vergeman/jekyll bash
+docker run -it -p 4000:4000 -v /home/vergeman/dev/vergeman.github.io:/usr/src/app vergeman/jekyll bash
 bundle init
 
 #...continue below
