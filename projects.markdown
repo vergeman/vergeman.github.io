@@ -48,6 +48,17 @@ A collection of past projects.
 
 <hr />
 {% include project_card.html
+    name="311 Crime Map"
+    image="/assets/images/projects/311crimemap.jpg"
+    url="https://www.311crimemap.com/"
+    github_url="https://github.com/311crimemap/nuisancemaps"
+    tech="Spring Boot, React, Typescript, K3s, Terraform, Ansible"
+    description="Continuously updated 311 and crime report map for 30 metros."
+%}
+
+
+
+{% include project_card.html
     name="Pit Trader"
     image="/assets/images/projects/pit-trader.jpg"
     url="https://www.thepittrader.com/"
