@@ -17,7 +17,7 @@ Email me: <span id="email" onClick="show_email();"><code>here</code></span>
 
 ---
 
-Versions of myself via [SDXL](https://stability.ai/stable-diffusion):
+<!--Versions of myself via [SDXL](https://stability.ai/stable-diffusion):-->
 
 
 <style>
@@ -31,6 +31,7 @@ Versions of myself via [SDXL](https://stability.ai/stable-diffusion):
  }
 </style>
 ![Watercolor nyc](/assets/images/about/watercolornyc.png "Watercolor NYC"){: loading="lazy"}
+<!--
 ![Line Art](/assets/images/about/lineart.png "Line Art"){: loading="lazy"}
 ![Cubist](/assets/images/about/cubist.png "Cubist"){: loading="lazy"}
 ![Watercolor suit](/assets/images/about/watercolorsuit.png "Watercolor Suit"){: loading="lazy"}
@@ -44,4 +45,4 @@ Versions of myself via [SDXL](https://stability.ai/stable-diffusion):
 ![Scream](/assets/images/about/scream.jpg "Scream"){: loading="lazy"}
 ![Native American](/assets/images/about/native.png "Native"){: loading="lazy"}
 ![Lichtenstein](/assets/images/about/Lichtenstein2.png "Lichtenstein"){: loading="lazy"}
-
+-->
