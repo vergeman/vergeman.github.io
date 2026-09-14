@@ -47,6 +47,17 @@ A collection of past projects.
 [Github](https://github.com/vergeman)
 
 <hr />
+
+{% include project_card.html
+    name="EROCT Congestion"
+    image="/assets/images/projects/ercotcongestion.jpg"
+    url="https://ercotcongestion.com/"
+    github_url="https://github.com/vergeman/ercotcongestion"
+    tech="Python, fastAPI, React, Typescript, K3s"
+    description="Visualization and forecast of ERCOT day-ahead constraints and power prices."
+%}
+
+
 {% include project_card.html
     name="311 Crime Map"
     image="/assets/images/projects/311crimemap.jpg"
