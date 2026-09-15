@@ -2,7 +2,7 @@
 # https://hub.docker.com/_/ruby
 #
 
-FROM ruby:3.0
+FROM ruby:3.4
 
 # throw errors if Gemfile has been modified since Gemfile.lock
 # RUN bundle config --global frozen 1
@@ -10,7 +10,7 @@ FROM ruby:3.0
 WORKDIR /usr/src/app
 
 COPY Gemfile Gemfile.lock ./
-RUN bundle install
+RUN bundle _2.6.9_ install
 
 COPY . .
 
