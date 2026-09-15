@@ -49,7 +49,7 @@ A collection of past projects.
 <hr />
 
 {% include project_card.html
-    name="EROCT Congestion"
+    name="ERCOT Congestion"
     image="/assets/images/projects/ercotcongestion.jpg"
     url="https://ercotcongestion.com/"
     github_url="https://github.com/vergeman/ercotcongestion"
